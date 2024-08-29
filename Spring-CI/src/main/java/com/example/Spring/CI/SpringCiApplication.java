@@ -11,6 +11,7 @@ public class SpringCiApplication implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws Exception {
 		logger.info("It is second logger");
+		logger.info("Continuous Integration Test ");
 	}
 
 	public static final Logger logger = LoggerFactory.getLogger(SpringCiApplication.class);
